@@ -1,29 +1,65 @@
-.main {
+body {
+    background-image: linear-gradient(0deg, #404040, black); 
     font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
 }
 
-.sidebar {
+.div-right-header {
+    position: sticky;
+    text-align: right;
+    float: right;
+    display: block;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.div-right-header a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.div-left-header {
+    position: sticky;
+    text-align: left;
+    float: left;
+    display: block;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.left-menu {
     height: 100%;
     width: 170px;
     position: sticky;
     top: 0px;
     float: left;
-    margin: 100px 20px 0px 0px;
+    margin-left: 10px;
     padding-top: 40px;
-    background-color: black;
-    color: grey; /*turn white when highlighted*/
+    color: grey; /*turns white when highlighted*/
     font-size: 20px;
     display: block;
     padding: 8px;
     opacity: 0.8;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
-.menu-item:hover {
-    color: white;
+.menu-item {
+    display: inline;
 }
 
-h1 {
-        font-size: 100px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
+.menu-item a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.menu-item a:hover {
+    color: grey;
+}
+
+
+
+
+    
