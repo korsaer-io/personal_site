@@ -1,4 +1,4 @@
-* {
+.main {
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -24,4 +24,5 @@
 
 h1 {
         font-size: 100px;
+        font-family: Garamond;
     }
