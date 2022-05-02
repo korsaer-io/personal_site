@@ -5,9 +5,9 @@ body {
     background-attachment: fixed; /*this is necessary to render the gradient properly*/
 }
 
-body .header-div {
+.header-div {
     width: 100%;
-    height: 40px;
+    height: 60px;
 }
 
 .div-right-header {
@@ -49,7 +49,7 @@ h1 {
 
 .menu-item i {
     width: 60px;
-    font-size: 28px;
+    font-size: 36px;
 }
 
 .menu-item a:hover {
