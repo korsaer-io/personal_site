@@ -3,6 +3,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: whitesmoke;
     background-attachment: fixed; /*this is necessary to render the gradient properly*/
+    display: block;
 }
 
 .header-div {
@@ -14,8 +15,7 @@ body {
     position: sticky;
     text-align: right;
     float: right;
-    display: block;
-    font-size: 14px;
+    display: inline;
     margin-top: 20px;
     margin-right: 20px;
 }
@@ -29,7 +29,7 @@ body {
     position: sticky;
     text-align: left;
     float: left;
-    display: block;
+    display: inline;
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -45,15 +45,10 @@ h1 {
 .menu-item a {
     color: whitesmoke;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 28px;
 }
 
-.menu-item i {
-    width: 60px;
-    font-size: 36px;
-}
-
-.menu-item a:hover {
+.menu-item i:hover {
     color: grey;
 }
 
