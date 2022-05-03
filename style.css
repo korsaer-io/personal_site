@@ -17,7 +17,7 @@ body {
     float: right;
     display: inline;
     margin-top: 20px;
-    margin-right: 20px;
+    margin-right: 115px;
 }
 
 .div-right-header a:link {
@@ -55,11 +55,14 @@ h1 {
     color: grey;
 }
 
+.div-right-header .menu-item a:hover {
+    color: grey;
+}
+
 .main-content {
     height: 100%;
     position: relative;
     display: block;
-    margin-left: 20px;
 }
 
 .main-content li {
@@ -67,7 +70,7 @@ h1 {
     right: 23px;
 }
 
-.main-content .name {
+.main-content {
     position: relative;
-    margin-left: 100px;
+    margin-left: 125px;
 }
