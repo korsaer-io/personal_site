@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(0deg, #353434, black);
+    background-image: linear-gradient(0deg, #180025, black);
     font-family: 'Courier New', Courier, monospace;
     color: whitesmoke;
     background-attachment: fixed; /*this is necessary to render the gradient properly*/
