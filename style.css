@@ -23,6 +23,7 @@ body {
 .div-right-header a:link {
     color: whitesmoke;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .div-left-header {
@@ -31,11 +32,12 @@ body {
     float: left;
     display: inline;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 115px;
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .menu-item {
@@ -46,6 +48,7 @@ h1 {
     color: whitesmoke;
     text-decoration: none;
     font-size: 28px;
+    padding: 20px;
 }
 
 .menu-item i:hover {
@@ -62,4 +65,9 @@ h1 {
 .main-content li {
     position: relative;
     right: 23px;
+}
+
+.main-content .name {
+    position: relative;
+    margin-left: 100px;
 }
