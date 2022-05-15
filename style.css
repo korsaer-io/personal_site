@@ -3,7 +3,8 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: whitesmoke;
     background-attachment: fixed; /*this is necessary to render the gradient properly*/
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header-div {
