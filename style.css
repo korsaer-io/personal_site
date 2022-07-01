@@ -5,6 +5,7 @@ body {
     background-attachment: fixed; /*this is necessary to render the gradient properly*/
     display: flex;
     flex-wrap: wrap;
+    content-visibility: auto; /*necessary to improve performance*/
 }
 
 .header-div {
