@@ -8,7 +8,7 @@ body {
     content-visibility: auto; /*necessary to improve performance*/
 }
 
-.header-div {
+header {
     width: 100%;
     height: 40px;
 }
