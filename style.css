@@ -4,6 +4,7 @@ body {
     color: whitesmoke;
     background-attachment: fixed; /*this is necessary to render the gradient properly*/
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     content-visibility: auto; /*necessary to improve performance*/
     margin: 0;
@@ -11,29 +12,17 @@ body {
 
 header {
     width: 100%;
-    height: 40px;
+    height: 20px;
     position: sticky;
-    display: inline;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 20px 120px;
+    font-size: 25px;
 }
 
-.div-right-header {
-    text-align: right;
-    float: right;
-    margin-top: 20px;
-    margin-right: 115px;
-}
-
-.div-right-header a:link {
+header a:link {
     color: whitesmoke;
     text-decoration: none;
-    font-size: 20px;
-}
-
-.div-left-header {
-    text-align: left;
-    float: left;
-    margin-top: 20px;
-    margin-left: 115px;
 }
 
 h1 {
@@ -52,11 +41,11 @@ h1 {
     padding: 20px;
 }
 
-.menu-item i:hover {
+header .menu-item i:hover {
     color: grey;
 }
 
-.div-right-header .menu-item a:hover {
+header .menu-item a:hover {
     color: grey;
 }
 
