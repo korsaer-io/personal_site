@@ -4,8 +4,7 @@ body {
     color: whitesmoke;
     background-attachment: fixed; /*this is necessary to render the gradient properly*/
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     content-visibility: auto; /*necessary to improve performance*/
     margin: 0;
 }
@@ -14,8 +13,8 @@ header {
     width: 100%;
     height: 20px;
     position: sticky;
-    display: flex;
-    flex-flow: row nowrap;
+    display: inline-flex;
+    justify-content: space-between;
     margin: 20px 120px;
     font-size: 25px;
 }
